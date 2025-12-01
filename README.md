@@ -103,41 +103,35 @@ All figures together with scripts are placed at `visual_elements/figs/`.
 - **Figure 2** `walsh_examples.svg` (SVG) -> `walsh_examples.pdf`
   **Example plots of the Walsh functions with corresponding Hadamard matrix and tip of a sawtooth wave expanded in Fourier vs. Walsh basis**
 
-- **Figure 3** `rlscheme.svg` (SVG) -> `rlscheme.pdf`
+- **Figure 3** `spin_kick.py` (python) -> `spin_kick.pdf`
   **Schematic Reinforcement Learning (RL) feedback loop**
 
-- **Figure 4** `greedy_vs_rl.svg` (SVG) -> `greedy_vs_rl.pdf`
+- **Figure 4** `mb_spin_kick.py` (python) -> `mb_spin_kick.pdf`
   **Greedy vs. learned active-feedback control strategies**
 
-- **Figure 5** `rl_p.py` (python) -> `rl_p.pdf`
+- **Figure 5** `localisation_vs_error.py` (python) -> `loc_vs_error.pdf`
   **Partially informed learned strategies**
 
-- **Figure 6** `example_frame.py` (python) -> `example_frame.pdf`
+- **Figure 6** `alias_sqwave_res_polariton.py` (python) -> `alias_sqwave_res_polariton.pdf`
   **Representative snapshot from supplementary video *learned 128 050.mp4***
 
-- **Figure 7** `bipartite_graph.tex` (TikZ/TeX)
+- **Figure 7** `discrete_generator.py` (python) -> `discrete_generator.pdf`
+  **Representative snapshot from supplementary video *learned 128 050.mp4***
+
+- **Figure 8** `quasienergy_matrices.py` (python) -> `quasienergy_matrices.pdf`
+  **Representative snapshot from supplementary video *learned 128 050.mp4***
+
+- **Figure 9** `error_scaling.py` (python) -> `error_scaling.pdf`
+  **Representative snapshot from supplementary video *learned 128 050.mp4***
+
+- **Figure 10** `error_scaling_strong_kick.py` (python) -> `error_scaling_strong_kick.pdf`
+  **Representative snapshot from supplementary video *learned 128 050.mp4***
+  
+- **Figure 11** `kick_gauge.svg` (SVG) -> `kick_gauge.pdf`
   **Schematic of the composite bipartite system**
 
-- **Figure 8** `transient.py` (python) -> `transient_greedy.pdf` `transient_random.pdf`
+- **Figure 12** `walsh_series.py` (python) -> `walsh_series.pdf`
   **Ensemble-averaged entanglement Stot(t) dynamics under random/greedy strategy**
-
-- **Figure 9** `full_extended.py` (python) -> `full_extended.pdf`
-  **Normalized ensemble-averaged steady-state entanglement ⟨Stot⟩ versus bias parameter *p***
-
-- **Figure 10** `greedy_binder.py` (python) -> `greedy_binder.pdf`
-  **Binder cumulant analysis for the greedy strategy**
-
-- **Figure 11** `pyramids_human.py` (python) -> `pyramids_human.pdf`
-  **Total entanglement Stot(τ) dynamics under learned and pyramid human-designed strategy**
-
-- **Figure 12** `bell.py` (python) -> `bell.pdf`
-  **Bell pair targeting for learned model**
-
-- **Figure 13** `encoder.svg` (SVG) -> `encoder.pdf`
-  **Encoder architecture schematic**
-
-- **Figure 14** `stabilizer_diagrams.tex` (TikZ/TeX)
-  **All 21 possible local stabilizer structures in a diagrammatic representation**
   
 
 ## License Information
