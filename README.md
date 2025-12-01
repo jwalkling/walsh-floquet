@@ -109,7 +109,7 @@ All figures together with scripts are placed at `visual_elements/figs/`.
 - **Figure 4** `mb_spin_kick.py` (python) -> `mb_spin_kick.pdf`
   **Greedy vs. learned active-feedback control strategies**
 
-- **Figure 5** `localisation_vs_error.py` (python) -> `loc_vs_error.pdf`
+- **Figure 5** `localisation_vs_error.py` (python) -> `localisation_vs_error.pdf`
   **Partially informed learned strategies**
 
 - **Figure 6** `alias_sqwave_res_polariton.py` (python) -> `alias_sqwave_res_polariton.pdf`
