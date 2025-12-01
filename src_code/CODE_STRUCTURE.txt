@@ -1,0 +1,16 @@
+.
+├── CODE_STRUCTURE.txt
+├── scripts
+│   ├── discrete_generator.py
+│   ├── error_scaling_strong_kick.py
+│   ├── error_scaling.py
+│   ├── kick_spin.py
+│   ├── mb_kick_spin.py
+│   ├── localisation_vs_error.py
+│   ├── misc_effects.py
+│   ├── quasienergy_matrices.py
+│   └── walsh_expansion.py
+└── src
+    └── walsh_floquet.py
+
+2 directories, 11 files

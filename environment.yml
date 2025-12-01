@@ -1,0 +1,9 @@
+name: walsh_floquet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.20.0
+  - scipy>=1.7.0
+  - matplotlib>=3.3.0

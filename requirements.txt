@@ -1,0 +1,7 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# Minimal environment for Walsh-Floquet code
+# platform: osx-64
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.3.0
