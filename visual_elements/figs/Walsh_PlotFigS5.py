@@ -31,7 +31,7 @@ plt.rcParams["text.latex.preamble"] = (
 
 processed_path = os.path.join("..", "..", "data", "processed")
 data_filename  = "strong_kick_error_scaling.pkl"
-filename       = "strong_kick_error_scaling"   # base name for saving figure
+filename       = "error_scaling_strong_kick"   # base name for saving figure
 
 
 # ============================================================================ #
