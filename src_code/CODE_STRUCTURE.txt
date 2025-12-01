@@ -4,12 +4,12 @@
 │   ├── discrete_generator.py
 │   ├── error_scaling_strong_kick.py
 │   ├── error_scaling.py
-│   ├── kick_spin.py
-│   ├── mb_kick_spin.py
+│   ├── spin_kick.py
+│   ├── mb_spin_kick.py
 │   ├── localisation_vs_error.py
-│   ├── misc_effects.py
+│   ├── alias_sqwave_res_polariton.py
 │   ├── quasienergy_matrices.py
-│   └── walsh_expansion.py
+│   └── walsh_series.py
 └── src
     └── walsh_floquet.py
 
