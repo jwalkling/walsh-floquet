@@ -35,12 +35,12 @@ The repository is organised as below
 
 1. **[scripts/](scripts/)**:
    - Scripts for generating the data for the figures.
-     - `kick_spin.py` and `mb_kick_spin.py`: Calculates quasienergy spectrum and error due to truncation for kicked spins.
+     - `spin_kick.py` and `mb_spin_kick.py`: Calculates quasienergy spectrum and error due to truncation for kicked spins.
      - `localisation_vs_error.py`: Scanning parameters to find error vs. localisation for a kicked spin.
      - `error_scaling.py` and `error_scaling_strong_kick.py`: Scaling of error with truncation order for square and kick drive.
      - `quasienergy_matrices.py` and `discrete_generator`: matrix elements for the quasienergy operator in different bases.
-     - `walsh_expansion.py`: scaling of analytic Walsh expansion vs. numerics with driving frequency.
-     - `misc_effects.py`: square wave error vs. localisation, resonance effects and Walsh polariton
+     - `walsh_series.py`: scaling of analytic Walsh expansion vs. numerics with driving frequency.
+     - `alias_sqwave_res_polariton.py`: square wave error vs. localisation, resonance effects and Walsh polariton
 
 2. **[src/](src/)**:
    - Core source directory for the Walsh-Floquet utilities.
