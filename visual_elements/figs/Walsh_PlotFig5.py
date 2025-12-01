@@ -34,7 +34,7 @@ plt.rcParams["text.latex.preamble"] = (
 # ============================================================================ #
 
 processed_path = os.path.join("..", "..", "data", "processed")
-filename = "loc_vs_error"
+filename = "localisation_vs_error"
 
 omega = 10.0
 
