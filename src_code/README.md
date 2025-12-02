@@ -26,9 +26,21 @@ The repository is organised as below
 
 ```plaintext
 .
-├── scripts/       # Scripts for data generation of figures.
-├── src/            # Source code for the extended Floquet Walsh operators.
-└── CODE_STRUCTURE.txt      # High-level structure of the codebase.
+├── CODE_STRUCTURE.txt
+├── scripts
+│   ├── discrete_generator.py
+│   ├── error_scaling_strong_kick.py
+│   ├── error_scaling.py
+│   ├── spin_kick.py
+│   ├── mb_spin_kick.py
+│   ├── localisation_vs_error.py
+│   ├── alias_sqwave_res_polariton.py
+│   ├── quasienergy_matrices.py
+│   └── walsh_series.py
+└── src
+    └── walsh_floquet.py
+
+2 directories, 11 files
 ```
 
 ### Directories and Main Files
