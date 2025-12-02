@@ -24,7 +24,7 @@ J. Walkling and M. Bukov, “Walsh-Floquet Theory of Periodic Kick Drives,” ar
 
 ## Links
 - **arXiv**: https://doi.org/10.48550/arXiv.2505.11071
-- **Zenodo DOI**: TK 
+- **Zenodo DOI**: https://doi.org/10.5281/zenodo.17790671
 
 ## Table of Contents
 - [Repository Overview](#repository-overview)
@@ -152,5 +152,5 @@ All figures together with scripts are placed at `visual_elements/figs/`.
 ---
 
 **Repository Version**: v1.0
-**Last Updated**: TK
-**Zenodo DOI**: TK
+**Last Updated**: December 2nd, 2025
+**Zenodo DOI**: https://doi.org/10.5281/zenodo.17790671
