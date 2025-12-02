@@ -33,7 +33,7 @@ Output
 ------
 The script saves a pickle file:
 
-    ../../data/processed/H_extended_kick.pkl
+    ../../data/processed/quasienergy_matrices.pkl
 
 containing the four matrices above.
 """
@@ -105,7 +105,7 @@ deriv_F = omega * np.diag(np.arange(-maxmode, maxmode + 1, 1))
 # Save results to processed/ directory
 # --------------------------------------------------------------------------- #
 
-filename       = "H_extended_kick.pkl"
+filename       = "quasienergy_matrices.pkl"
 processed_path = os.path.join("..", "..", "data", "processed")
 save_path      = os.path.join(processed_path, filename)
 
