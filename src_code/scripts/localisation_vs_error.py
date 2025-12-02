@@ -14,12 +14,14 @@ This script generates two sets of processed data for a driven single spin (L = 1
    mode decompositions.
 
    Output:
-       ../../data/raw/time_evolve_modes.pkl
+       ../../data/processed/time_evolve_modes.pkl
+       ../../data/raw/ut_low_high_freq.pkl
    containing:
        - ts
        - ut_high_real, ut_low_real
        - Fm_high, Fm_low
        - Wm_high, Wm_low
+       - Raw data has ts, ut_low, ut_high
 
 2. Two-parameter localisation and error scans (N = 2^6)
    ---------------------------------------------------
