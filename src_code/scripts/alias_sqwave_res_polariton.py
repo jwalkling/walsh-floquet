@@ -293,8 +293,8 @@ ut_down, _ = compute_Floquet_mode_t_down(n, omega, hz, hx)
 
 ts = np.linspace(0.0, T, N, endpoint=False)
 
-ut_high_real = np.real(ut_up)     # spin-up response (imag part ~ 0)
-ut_low_imag  = np.imag(ut_down)   # spin-down response (real part ~ 0)
+ut_up_real = np.real(ut_up)     # spin-up response (imag part ~ 0)
+ut_down_imag  = np.imag(ut_down)   # spin-down response (real part ~ 0)
 
 
 # --------------------------------------------------------------------------- #
@@ -302,15 +302,15 @@ ut_low_imag  = np.imag(ut_down)   # spin-down response (real part ~ 0)
 # --------------------------------------------------------------------------- #
 
 filename       = "walsh_polariton_t.pkl"
-processed_path = os.path.join("..", "..", "data", "processed")
-save_path      = os.path.join(processed_path, filename)
+raw_path = os.path.join("..", "..", "data", "raw")
+save_path      = os.path.join(raw_path, filename)
 
-os.makedirs(processed_path, exist_ok=True)
+os.makedirs(raw_path, exist_ok=True)
 
 to_save = {
     "ts":            ts,
-    "ut_high_real":  ut_high_real,
-    "ut_low_imag":   ut_low_imag,
+    "ut_up_real":  ut_up_real,
+    "ut_down_imag":   ut_down_imag,
 }
 
 with open(save_path, "wb") as f:
