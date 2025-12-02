@@ -104,34 +104,34 @@ All figures together with scripts are placed at `visual_elements/figs/`.
   **Example plots of the Walsh functions with corresponding Hadamard matrix and tip of a sawtooth wave expanded in Fourier vs. Walsh basis**
 
 - **Figure 3** `spin_kick.py` (python) -> `spin_kick.pdf`
-  **Schematic Reinforcement Learning (RL) feedback loop**
+  **Single spin quasienergy spectrum and truncation error scan for kick drive in Walsh and Fourier bases**
 
 - **Figure 4** `mb_spin_kick.py` (python) -> `mb_spin_kick.pdf`
-  **Greedy vs. learned active-feedback control strategies**
+  **Many spin quasienergy spectrum and truncation error scan for kick drive in Walsh and Fourier bases**
 
 - **Figure 5** `localisation_vs_error.py` (python) -> `localisation_vs_error.pdf`
-  **Partially informed learned strategies**
+  **Localisation on frequency lattice along with comparing error vs. localisation for single kicked spin**
 
 - **Figure 6** `alias_sqwave_res_polariton.py` (python) -> `alias_sqwave_res_polariton.pdf`
-  **Representative snapshot from supplementary video *learned 128 050.mp4***
+  **Schematic of aliasing, square wave drive error/localisation, resonance effects and Walsh polariton in time domain**
 
 - **Figure 7** `discrete_generator.py` (python) -> `discrete_generator.pdf`
-  **Representative snapshot from supplementary video *learned 128 050.mp4***
+  **Generator of discrete cyclic translations in time domain (real space)**
 
 - **Figure 8** `quasienergy_matrices.py` (python) -> `quasienergy_matrices.pdf`
-  **Representative snapshot from supplementary video *learned 128 050.mp4***
+  **Quasienergy matrices in Walsh and Fourier bases**
 
 - **Figure 9** `error_scaling.py` (python) -> `error_scaling.pdf`
-  **Representative snapshot from supplementary video *learned 128 050.mp4***
+  **Scaling of errors with truncation for square wave and kick for single particle and many-body**
 
 - **Figure 10** `error_scaling_strong_kick.py` (python) -> `error_scaling_strong_kick.pdf`
-  **Representative snapshot from supplementary video *learned 128 050.mp4***
+  **Scaling of errors with truncation for strong kick for single particle and many-body**
   
 - **Figure 11** `kick_gauge.svg` (SVG) -> `kick_gauge.pdf`
-  **Schematic of the composite bipartite system**
+  **Schematic of symmetric vs. non-symmetric kick drive gauge choice**
 
 - **Figure 12** `walsh_series.py` (python) -> `walsh_series.pdf`
-  **Ensemble-averaged entanglement Stot(t) dynamics under random/greedy strategy**
+  **Scaling of the truncated series solution with omega**
   
 
 ## License Information
