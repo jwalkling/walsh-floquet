@@ -37,14 +37,14 @@ plt.rcParams["text.latex.preamble"] = (
 
 processed_path = os.path.join("..", "..", "data", "processed")
 
-filename = "H_extended_kick"   # readable name for saving figures
+filename = "quasienergy_matrices"   # readable name for saving figures
 
 
 # ============================================================================ #
 # LOAD PRECOMPUTED DATA
 # ============================================================================ #
 
-load_path = os.path.join(processed_path, "H_extended_kick.pkl")
+load_path = os.path.join(processed_path, "quasienergy_matrices.pkl")
 with open(load_path, "rb") as f:
     D = pickle.load(f)
 
