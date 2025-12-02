@@ -14,7 +14,7 @@ This script generates two sets of processed data for a driven single spin (L = 1
    mode decompositions.
 
    Output:
-       ../../data/processed/time_evolve_modes.pkl
+       ../../data/raw/time_evolve_modes.pkl
    containing:
        - ts
        - ut_high_real, ut_low_real
@@ -106,7 +106,7 @@ ut_low_real  = np.real(ut_low)
 # Save time-evolution dataset
 # --------------------------------------------------------------------------- #
 
-processed_path = os.path.join("..", "..", "data", "processed")
+processed_path = os.path.join("..", "..", "data", "raw")
 os.makedirs(processed_path, exist_ok=True)
 
 save_path = os.path.join(processed_path, "time_evolve_modes.pkl")
@@ -119,6 +119,21 @@ to_save = {
     "Fm_low":        Fm_low,
     "Wm_high":       Wm_high,
     "Wm_low":        Wm_low,
+}
+
+with open(save_path, "wb") as f:
+    pickle.dump(to_save, f)
+
+#Save just the full raw data for the modes separately too.
+raw_path = os.path.join("..", "..", "data", "raw")
+os.makedirs(raw_path, exist_ok=True)
+
+save_path = os.path.join(raw_path, "ut_low_high_freq.pkl")
+
+to_save = {
+    "ts":            ts,
+    "ut_high":  ut_high,
+    "ut_low":   ut_low,
 }
 
 with open(save_path, "wb") as f:
