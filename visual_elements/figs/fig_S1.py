@@ -36,6 +36,7 @@ plt.rcParams["text.latex.preamble"] = (
 
 base_path      = Path("..") / ".."
 processed_path = base_path / "data" / "processed"
+raw_path = base_path / "data" / "raw"
 
 fig_filename = "alias_sqwave_res_polariton.pdf"
 
@@ -55,7 +56,7 @@ with open(load_path2, "rb") as f:
     D2 = pickle.load(f)
 
 # Walsh polariton time evolution
-load_path3 = processed_path / "walsh_polariton_t.pkl"
+load_path3 = raw_path / "walsh_polariton_t.pkl"
 with open(load_path3, "rb") as f:
     D3 = pickle.load(f)
 
@@ -77,8 +78,8 @@ Sq_Errors_Ratio   = D2["Errors_Ratio"]
 
 # Mode and time data for polariton evolution
 ts           = D3["ts"]
-ut_high_real = D3["ut_high_real"]
-ut_low_imag  = D3["ut_low_imag"]
+ut_up_real = D3["ut_up_real"]
+ut_down_imag  = D3["ut_down_imag"]
 
 
 # ============================================================================ #
@@ -275,13 +276,13 @@ ax_bot_right.plot(aspect=0.2)
 
 ax_bot_right.plot(
     ts,
-    ut_high_real,
+    ut_up_real,
     label=r"Re$\{ \langle \uparrow| u(t) \rangle \}$",
     color="orchid",
 )
 ax_bot_right.plot(
     ts,
-    ut_low_imag,
+    ut_down_imag,
     label=r"Im$\{ \langle \downarrow| u(t) \rangle \}$",
     linestyle="dashed",
     color="purple",
