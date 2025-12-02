@@ -51,14 +51,15 @@ This script produces three processed datasets for L = 1 spin systems:
    Task:
        - Time evolution of an up-component (real) and down-component (imag)
          Floquet mode over one period.
+       - The other parts of these complex numbers are approximately zero.
        - This is used to visualise the “Walsh polariton” time evolution.
 
    Output:
        ../../data/processed/Walsh_polariton_t.pkl
    Keys:
        - ts
-       - ut_high_real
-       - ut_low_imag
+       - ut_up_real
+       - ut_down_imag
 """
 
 # --------------------------------------------------------------------------- #
