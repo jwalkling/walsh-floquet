@@ -55,7 +55,7 @@ This script produces three processed datasets for L = 1 spin systems:
        - This is used to visualise the “Walsh polariton” time evolution.
 
    Output:
-       ../../data/processed/Walsh_polariton_t.pkl
+       ../../data/raw/walsh_polariton_t.pkl
    Keys:
        - ts
        - ut_up_real
